@@ -38,7 +38,7 @@ sudo pip install -r requirements.txt
 cd pesquisa_QA
 python main.py
 ```
-ao executar os testes o arquivo cucumber.html será gerado com o resultado dos testes
+ao executar os testes o arquivo cucumber.html será gerado com o resultado dos testes na pasta /reports
 
 
 
