@@ -39,7 +39,11 @@ cd pesquisa_QA
 python main.py
 ```
 ao executar os testes o arquivo cucumber.html será gerado com o resultado dos testes na pasta /reports
-
+Obs. No windows o usuário deverá permitir a execução do Python
+Obs2. em caso de erro na execução informar a versão do python na execução:
+```sh
+python3.9 main.py
+```
 
 
 # Executar os Testes via pipeline
