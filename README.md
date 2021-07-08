@@ -45,6 +45,9 @@ Obs2. em caso de erro na execução informar a versão do python na execução:
 python3.9 main.py
 ```
 
+# Report de execução dos Testes
+Ao executar os testes 2 reports são gerados na pasta /reports (json e html). O arquivo .json está no formato cucumber para ser utilizado ao adicionar os testes a pipeline (cucumber-reports)
+
 
 # Executar os Testes via pipeline
 
@@ -52,8 +55,5 @@ pip3.8 install -r requirements.txt --user && /usr/bin/python3.8 main.py"
 
 
 # Adicionar cucumber reports a pipeline
-Para gerar o relatório no formato cucumber reports, habilitar a linha de comando abaixo no arquivo main.py
-```sh
-# code = behave_main(["features/", "-t~@ignore", '-k', '-o', 'reports/cucumber-behave.html', '-f', 'json'])
-```
+
 cucumber fileIncludePattern: 'reports/cucumber*.json'
